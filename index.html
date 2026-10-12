@@ -19,7 +19,8 @@
   <div class="wrap">
     <a class="brand" href="#">Yang Brooks Han</a>
     <a href="#work">Work</a>
-    <a href="#path" class="hide-sm">Path</a>
+    <a href="#path">Path</a>
+    <a href="#thread">Thread</a>
     <a href="#writing">Writing</a>
     <button id="theme" aria-label="Toggle dark mode">◐</button>
   </div>
@@ -31,6 +32,7 @@
       <h1>From equations<br>to <em>embodiment</em>.</h1>
       <p>I'm Yang. I train foundation models that learn to see, imagine, and act — today <b>humanoid foundation models</b> at Delta Intelligence, and before that <b>video generation foundation models</b> for Vidu at ShengShu.</p>
       <p>I was trained in computational mathematics, working on AI&nbsp;×&nbsp;Science at Peking University, then spent years as a senior engineer on industrial-grade communication networks, data, and systems. I like problems where clean math meets messy engineering at scale.</p>
+      <p>A thread runs through all of it: <b>natural intelligence</b> and <b>systems biology</b>. Studying living systems as dynamics shaped how I think about building machines that perceive and act.</p>
       <div class="links">
         <a href="mailto:yangbrooks.han@gmail.com">Email</a>
         <a href="https://github.com/YangBrooksHan">GitHub</a>
@@ -90,13 +92,23 @@
       <li id="p-math">
         <div class="when"><span class="tag">equations</span></div>
         <div class="org">Peking University <span>· M.S. in Computational Mathematics</span></div>
-        <p>AI × Science, advised by Prof. <a href="https://math.pku.edu.cn/teachers/litj/">Tiejun Li</a>.</p>
+        <p>AI × Science and systems biology, advised by Prof. <a href="https://math.pku.edu.cn/teachers/litj/">Tiejun Li</a>.</p>
       </li>
       <li>
         <div class="when"><span class="tag">equations</span></div>
         <div class="org">Jilin University <span>· B.S. in Information &amp; Computing Science, School of Mathematics</span></div>
       </li>
     </ol>
+  </section>
+
+  <section id="thread">
+    <h2>The thread <small>natural intelligence &amp; systems biology</small></h2>
+    <p>One question runs through my work: how do living systems come to understand and act in the world — and how can machines learn to do the same? I approach intelligence the way a systems biologist approaches a cell: as a stochastic, multiscale, adaptive dynamical system.</p>
+    <ul class="rows">
+      <li><time>PKU</time><div><b>Systems biology as a lens</b><span class="meta">Working on AI × Science with Prof. Tiejun Li, I learned to model biological systems as stochastic, multiscale dynamics. It shaped how I see intelligence: not a single algorithm, but an adaptive system of many interacting parts.</span></div></li>
+      <li><time>Vidu</time><div><b>Learning the world by watching</b><span class="meta">Animals build an internal model of the world largely from what they see. Training video foundation models is the machine version: learning physics, objects, and causality from pixels.</span></div></li>
+      <li><time>Δ₀</time><div><b>Natural intelligence as the teacher</b><span class="meta">Humans are the most capable embodied intelligence we know. Δ₀ learns from large-scale human motion data, turning how people move and handle objects into skills for humanoid robots.</span></div></li>
+    </ul>
   </section>
 
   <section id="writing">
@@ -116,6 +128,15 @@
     root.dataset.theme = dark ? 'light' : 'dark';
     try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
   });
+  const navLinks = [...document.querySelectorAll('nav a[href^="#"]:not(.brand)')];
+  const spy = () => {
+    const atBottom = innerHeight + scrollY >= document.documentElement.scrollHeight - 2;
+    const current = atBottom ? navLinks.at(-1)
+      : navLinks.filter(a => document.querySelector(a.hash).getBoundingClientRect().top < innerHeight / 3).pop();
+    navLinks.forEach(a => a.classList.toggle('active', a === current));
+  };
+  addEventListener('scroll', spy, { passive: true });
+  spy();
 </script>
 </body>
 </html>
